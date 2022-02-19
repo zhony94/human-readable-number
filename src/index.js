@@ -1,5 +1,4 @@
-module.exports = function toReadable (number) {
-  module.exports = function toReadable (number) {  
+module.exports = function toReadable (number) {  
     base = {
         "0": "zero",
         "1": "one",
@@ -58,5 +57,4 @@ function aboveHundred(number){
         return `${base[firstPart]} hundred ${secondPart}`
     }
     
-}
 }
